@@ -2,4 +2,25 @@
 
 body {
   background: pink;
+  margin: 0;
+}
+
+header{
+  background: white;
+  padding: 24px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > img {
+  width: 300px;
+  height:34px;
+}
+
+header > button {
+  all: unset;
+  background: rgb(104, 169, 7);
+  border-radius: 10%;
+  color: white;
+  padding: 8px 16px;
 }
