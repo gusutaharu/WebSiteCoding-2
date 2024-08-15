@@ -5,22 +5,32 @@ body {
   margin: 0;
 }
 
-header{
+header {
   background: white;
-  padding: 24px 80px;
+}
+
+.container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  padding: 16px 32px;
 }
 
-header > img {
-  width: 300px;
-  height:34px;
+h1{
+  margin: 0;
+  font-size: 0;
 }
 
-header > button {
-  all: unset;
-  background: rgb(104, 169, 7);
-  border-radius: 10%;
+h1 > img {
+  width: 116px;
+  height: 32px;
+}
+
+.btn {
+  background: #329e00;
+  border-radius: 8%;
   color: white;
+  height: 24px;
+  text-decoration: none;
   padding: 8px 16px;
 }
