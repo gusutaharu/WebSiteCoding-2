@@ -10,6 +10,15 @@ img {
   vertical-align: center;
 }
 
+h2{
+  margin: 0;
+  font-weight: normal;
+}
+
+p{
+  margin: 0;
+}
+
 /* header */
 
 header {
@@ -46,7 +55,7 @@ h1 > img {
 /* top */
 
 .top {
-  background: url(bg.png) bottom no-repeat #99e6ff;
+  background: url(bg.png) center bottom repeat-x #99e6ff;
   padding-top: 64px;
   text-align: center;
   display: flex;
@@ -62,13 +71,4 @@ h1 > img {
 
 .top > .btn {
   margin-top: 64px;
-}
-
-h2{
-  margin: 0;
-  font-weight: normal;
-}
-
-p{
-  margin: 0;
 }
