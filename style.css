@@ -108,7 +108,7 @@ h1 > img {
 footer {
   background: #3c3c3c;
   color: white;
-  padding: 64px;
+  padding: 64px 0;
   text-align: center;
 }
 
