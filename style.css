@@ -19,6 +19,7 @@ h2{
 h3{
   margin: 0;
   font-weight: normal;
+  margin-top: 16px;
 }
 
 p{
@@ -85,12 +86,12 @@ h1 > img {
   padding: 64px 32px;
 }
 
-.features  h3,p {
-  margin-top: 16px;
-}
-
 .feature {
   margin-top: 64px;
+}
+
+.feature > p {
+  margin-top: 16px;
 }
 
 .features-img {
