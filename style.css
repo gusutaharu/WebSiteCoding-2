@@ -37,6 +37,8 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 16px 32px;
+  max-width: 776px;
+  margin: 0 auto;
 }
 
 h1{
@@ -47,6 +49,10 @@ h1{
 h1 > img {
   width: 116px;
   height: 32px;
+}
+
+.pc-screen {
+  display: none;
 }
 
 .btn {
@@ -114,4 +120,23 @@ footer {
 
 small {
   font-size: 14px;
+}
+
+/* large screen */
+
+@media (min-width: 600px){
+  body{
+    background: pink;
+  }
+  .sp-screen {
+    display: none;
+  }
+  .pc-screen {
+    display: inline-block;
+  }
+  h1 > img {
+    width: 264px;
+    height: 32px;
+  }
+
 }
