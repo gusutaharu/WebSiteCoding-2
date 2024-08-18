@@ -51,7 +51,7 @@ h1 > img {
   height: 32px;
 }
 
-.pc-screen {
+.pc-logo {
   display: none;
 }
 
@@ -128,14 +128,14 @@ small {
   body{
     background: pink;
   }
-  .sp-screen {
+  .sp-logo {
     display: none;
   }
-  .pc-screen {
+  .pc-logo {
     display: inline-block;
   }
   h1 > img {
-    width: 264px;
+    width: 284px;
     height: 32px;
   }
 
