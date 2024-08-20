@@ -7,7 +7,7 @@ body {
 }
 
 img {
-  vertical-align: center;
+  vertical-align: bottom;
 }
 
 h2{
@@ -143,8 +143,20 @@ small {
     width: 284px;
     height: 32px;
   }
+
+  /* top */
+
   .top-container {
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .top-container div {
+    flex: 1;
+  }
+
+  .top img {
+    margin-top: 0;
+  }
+
 }
