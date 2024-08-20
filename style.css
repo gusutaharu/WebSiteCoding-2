@@ -160,16 +160,25 @@ small {
     margin-top: 0;
   }
 
+/* features */
+
   .feature {
     display: flex;
-    justify-content: center;
+    gap: 32px;
+    /* justify-content: center; */
+  
   }
 
-  .feature div {
+  .features-img {
+    width: 300px;
+  }
+
+  .right-text {
     flex: 1;
   }
 
   .left-text{
+    flex: 1;
     order: -1;
   }
 
