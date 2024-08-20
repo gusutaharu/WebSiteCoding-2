@@ -98,7 +98,8 @@ h1 > img {
 }
 
 .feature {
-  margin-top: 64px;
+  max-width: 800px;
+  margin: 64px auto 0;
 }
 
 .feature > p {
@@ -130,9 +131,9 @@ small {
 /* large screen */
 
 @media (min-width: 600px){
-  body{
+  /* body{
     background: pink;
-  }
+  } */
   .sp-logo {
     display: none;
   }
@@ -157,6 +158,19 @@ small {
 
   .top img {
     margin-top: 0;
+  }
+
+  .feature {
+    display: flex;
+    justify-content: center;
+  }
+
+  .feature div {
+    flex: 1;
+  }
+
+  .left-text{
+    order: -1;
   }
 
 }
